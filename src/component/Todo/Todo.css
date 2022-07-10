@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body
+  {
+    /* background-color: rgb(255, 127, 127); */
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+  
+  
+  .mainTodoContainer
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .rightSide
+  {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #e4c3b9, #e6bbcc, #a9d4e2, #a6e2d4);
+      background-size: 400% 400%;
+      animation: gradient 9s ease infinite;
+    
+  }
+  
+  .leftSide
+  {
+    
+    background: linear-gradient(-45deg, #a9d4e2, #a6e2d4, #e4c3b9, #e6bbcc);
+      background-size: 400% 400%;
+      animation: gradient 9s ease infinite;
+  }
+  
+  
+  .rightSide
+  {
+    padding: 1rem;
+  }
+  
+  
+  .rightSide .headingAndPara p
+  {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  

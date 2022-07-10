@@ -1,0 +1,55 @@
+ul
+{
+    list-style: none;
+    /* display: flex; */
+}
+
+.listliItems
+{
+    display: flex;
+    
+}
+
+li
+{
+    line-height: 5rem;
+    font-size: 1.6rem;
+}
+
+hr
+{
+    color: black;
+}
+
+.allButtons
+{
+    margin-left: 10rem;
+    margin-top: 2.2rem;
+}
+
+.deleteBtn
+{
+    margin-left: 5rem;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.completeBtn
+{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.deleteBtn i{
+    pointer-events: none;
+    
+}
+
+.completeBtn i{
+    pointer-events: none;
+}

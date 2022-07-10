@@ -1,0 +1,11 @@
+.saveButton
+{
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: rgb(60, 160, 60);
+    margin-left: 36%;
+    margin-top: 2rem;
+    cursor: pointer;
+}
